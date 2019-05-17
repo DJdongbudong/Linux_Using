@@ -41,7 +41,7 @@ cd build # 进入build文件夹
 
 #cmake指令，如果没有特殊要求建议就选择默认的就可以
 #注意，后面的两个点千万不能省，代表了上级目录
-cmake -D CMAKE_BUILD_TYPE=Release -D CMAKE_INSTALL_PREFIX=/usr/local ..  
+cmake -D CMAKE_BUILD_TYPE=Release -D CMAKE_INSTALL_PREFIX=/usr/local/opencv3 ..  
 make -j7 # 多线程执行make任务
 
 # 最后一步，安装库文件
